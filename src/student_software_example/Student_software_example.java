@@ -14,6 +14,15 @@ public class Student_software_example {
     /**
      * @param args the command line arguments
      */
+    private String  person;
+
+    public String getPerson() {
+        return person;
+    }
+
+    public void setPerson(String person) {
+        this.person = person;
+    }
     public static void main(String[] args) {
         // TODO code application logic here
     }
